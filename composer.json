@@ -51,6 +51,9 @@
         ],
         "larastan": [
             "./vendor/bin/phpstan analyse"
+        ],
+        "csfixer-run": [
+            "./tools/php-cs-fixer/vendor/bin/php-cs-fixer fix ./app"
         ]
     },
     "extra": {
